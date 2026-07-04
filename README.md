@@ -1,4 +1,9 @@
 # DecodeLabs Full Stack Student Portal
+## 🚀 Live Project
+
+- 🌐 Frontend: https://6a48d3d7129bdf437de07ded--neon-pithivier-e5a5bd.netlify.app/
+- 🔗 Backend API: https://decodelabs-tasks.onrender.com/student
+
 
 ## 📌 Overview
 This project was developed as part of the DecodeLabs Full Stack Development Internship.
