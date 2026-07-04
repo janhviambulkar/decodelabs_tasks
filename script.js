@@ -2,8 +2,7 @@ async function getStudent() {
 
     try {
 
-        const response = await fetch("http://localhost:3000/student");
-
+        const response = await fetch("https://decodelabs-tasks.onrender.com/student");
         if (!response.ok) {
             throw new Error("Server response was not OK");
         }
