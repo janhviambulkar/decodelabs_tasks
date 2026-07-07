@@ -1,10 +1,24 @@
 function searchJob(){
 
-let search=document
-.getElementById("search")
-.value
-.toLowerCase();
+let job=document.getElementById("searchInput").value;
 
-alert("Searching for : "+search);
+if(job==""){
+
+alert("Please enter a job title.");
+
+}
+else{
+
+alert("Searching for "+job);
+
+}
+
+}
+
+const btn=document.getElementById("themeBtn");
+
+btn.onclick=function(){
+
+document.body.classList.toggle("dark");
 
 }
