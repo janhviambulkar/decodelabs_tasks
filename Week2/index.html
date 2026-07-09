@@ -1,1 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CareerConnect</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<!-- Navigation -->
+
+<nav class="navbar">
+
+    <div class="logo">
+        CareerConnect
+    </div>
+
+
+    <ul class="nav-links">
+
+        <li><a href="#home">Home</a></li>
+
+        <li><a href="#jobs">Jobs</a></li>
+
+        <li><a href="#companies">Companies</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+
+    <button class="login-btn">
+        Login
+    </button>
+
+
+</nav>
+<!-- Hero Section -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <h1>Find Your Dream Internship & Job</h1>
+
+        <p>
+            Explore internships and jobs from top companies across India.
+            Start your career journey with CareerConnect.
+        </p>
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search by Role, Company or Skill">
+
+            <button onclick="searchJob()">Search</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Featured Jobs Section -->
+
+<section class="jobs" id="jobs">
+
+    <h2>Featured Jobs & Internships</h2>
+
+
+<div class="job-container">
+    <h3>Loading jobs...</h3>
+</div>
+</section>
+
+
+<!-- Companies Section -->
+
+<section class="companies" id="companies">
+
+    <h2>Top Companies Hiring</h2>
+
+    <div class="company-container">
+
+        <div class="company-card">
+            <h3>Google</h3>
+            <p>Software Development</p>
+        </div>
+
+        <div class="company-card">
+            <h3>Microsoft</h3>
+            <p>Cloud & Data Roles</p>
+        </div>
+
+        <div class="company-card">
+            <h3>Amazon</h3>
+            <p>Full Stack & Analytics</p>
+        </div>
+
+        <div class="company-card">
+            <h3>Infosys</h3>
+            <p>Graduate Internships</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Footer -->
+
+<footer id="contact">
+
+    <div class="footer-content">
+
+        <h2>CareerConnect</h2>
+
+        <p>
+            Connecting students with internships and job opportunities.
+        </p>
+
+        <div class="footer-links">
+
+            <a href="#home">Home</a>
+            <a href="#jobs">Jobs</a>
+            <a href="#companies">Companies</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+    </div>
+
+
+    <p class="copyright">
+        © 2026 CareerConnect. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
