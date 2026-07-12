@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CareerConnect | DecodeLabs Final Project</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+<h1>CareerConnect</h1>
+
+<p>Smart Internship & Job Portal</p>
+
+</div>
+
+<nav>
+
+<a href="#home">Home</a>
+
+<a href="#overview">Overview</a>
+
+<a href="#jobs">Jobs</a>
+
+<a href="#features">Features</a>
+
+<a href="#technology">Technology</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<div class="hero-text">
+
+<h2>Find Your Dream Internship & Job</h2>
+
+<p>
+
+CareerConnect is a modern Full Stack Job Portal built using HTML, CSS,
+JavaScript, Node.js and Express.js.
+
+It helps students discover internships and full-time opportunities
+through a fast, responsive and user-friendly interface.
+
+</p>
+
+<div class="hero-buttons">
+
+<button onclick="document.getElementById('jobs').scrollIntoView({behavior:'smooth'})">
+
+Explore Jobs
+
+</button>
+
+<button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+
+Contact
+
+</button>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800" alt="Career">
+
+</div>
+
+</section>
+
+<section id="overview">
+
+<h2>Project Overview</h2>
+
+<p class="overview">
+
+CareerConnect is a responsive internship and placement portal developed
+as the DecodeLabs Full Stack Internship Final Project.
+
+The application demonstrates frontend development,
+REST API integration,
+backend development using Express.js,
+GitHub version control,
+and deployment using Netlify and Render.
+
+</p>
+
+</section>
+
+<section id="jobs">
+
+<h2>Featured Jobs & Internships</h2>
+
+<div class="search-box">
+
+<input
+type="text"
+id="searchInput"
+placeholder="Search by Role, Company or Skill">
+
+<button onclick="searchJob()">
+
+Search
+
+</button>
+
+</div>
+
+<div class="job-container">
+
+<h3>
+
+Loading Jobs...
+
+</h3>
+
+</div>
+
+</section>
+
+<section id="features">
+
+<h2>Why Choose CareerConnect?</h2>
+
+<div class="feature-grid">
+
+<div class="feature-card">
+
+<h3>💼 Internship Portal</h3>
+
+<p>
+
+Explore internships from top companies.
+
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<h3>🔍 Smart Search</h3>
+
+<p>
+
+Search by company, role or skills.
+
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<h3>⚡ REST API</h3>
+
+<p>
+
+Jobs loaded dynamically using Express.js.
+
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<h3>📱 Responsive Design</h3>
+
+<p>
+
+Works perfectly on Desktop, Tablet and Mobile.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="stats">
+
+<h2>Platform Statistics</h2>
+
+<div class="stats-container">
+
+<div class="stat-box">
+
+<h3>500+</h3>
+
+<p>Internships</p>
+
+</div>
+
+<div class="stat-box">
+
+<h3>150+</h3>
+
+<p>Companies</p>
+
+</div>
+
+<div class="stat-box">
+
+<h3>1000+</h3>
+
+<p>Students</p>
+
+</div>
+
+<div class="stat-box">
+
+<h3>24×7</h3>
+
+<p>Availability</p>
+
+</div>
+
+</div>
+
+</section>
+<section id="technology">
+
+    <h2>Technology Stack</h2>
+
+    <div class="tech-grid">
+
+        <div class="tech-card">🌐 HTML5</div>
+
+        <div class="tech-card">🎨 CSS3</div>
+
+        <div class="tech-card">⚡ JavaScript</div>
+
+        <div class="tech-card">🟢 Node.js</div>
+
+        <div class="tech-card">🚀 Express.js</div>
+
+        <div class="tech-card">📡 REST API</div>
+
+        <div class="tech-card">🐙 Git & GitHub</div>
+
+        <div class="tech-card">☁️ Netlify</div>
+
+        <div class="tech-card">🌍 Render</div>
+
+    </div>
+
+</section>
+
+<section id="companies">
+
+    <h2>Top Hiring Companies</h2>
+
+    <div class="feature-grid">
+
+        <div class="feature-card">
+            <h3>Google</h3>
+            <p>Software Engineering & Cloud</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>Microsoft</h3>
+            <p>Data, AI & Azure Roles</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>Amazon</h3>
+            <p>Full Stack & Backend</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>Infosys</h3>
+            <p>Graduate Internships</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact">
+
+    <h2>Project Links</h2>
+
+    <div class="feature-grid">
+
+        <div class="feature-card">
+
+            <h3>🐙 GitHub Repository</h3>
+
+            <p>
+                <a href="https://github.com/janhviambulkar/decodelabs_tasks" target="_blank">
+                    View Source Code
+                </a>
+            </p>
+
+        </div>
+
+        <div class="feature-card">
+
+            <h3>🌐 Live Demo</h3>
+
+            <p>
+                <a href="https://6a48d3d7129bdf437de07ded--neon-pithivier-e5a5bd.netlify.app/" target="_blank">
+                    Open Live Project
+                </a>
+            </p>
+
+        </div>
+
+        <div class="feature-card">
+
+            <h3>🚀 Backend API</h3>
+
+            <p>
+                Connects to an Express.js REST API running on Render or localhost.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="about-project">
+
+    <h2>About This Project</h2>
+
+    <p>
+
+        CareerConnect is a modern Full Stack internship and job portal developed
+        during the DecodeLabs Full Stack Development Internship.
+
+        It demonstrates frontend development, backend API integration,
+        responsive design, deployment, and version control using GitHub.
+
+    </p>
+
+</section>
+
+<footer>
+
+    <p>
+        © 2026 CareerConnect | DecodeLabs Full Stack Internship Final Project
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
