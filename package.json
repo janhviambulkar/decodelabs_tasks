@@ -1,17 +1,15 @@
 {
-  "name": "server",
+  "name": "careerconnect",
   "version": "1.0.0",
-  "description": "",
+  "description": "CareerConnect Full Stack Job Portal",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Janhvi Ambulkar",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "cors": "^2.8.6",
-    "express": "^5.2.1"
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
   }
 }
