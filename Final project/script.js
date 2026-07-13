@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/jobs";
+const API_URL = "https://decodelabs-tasks-1.onrender.com/jobs";
 
 let jobs = [];
 
