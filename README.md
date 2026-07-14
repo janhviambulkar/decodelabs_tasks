@@ -26,7 +26,6 @@ A modern Full Stack Job & Internship Portal built using **HTML5, CSS3, JavaScrip
 | 🚀 Live Website | https://decodelabs-tasks-five.vercel.app/ |
 | ⚙ Backend API | https://decodelabs-tasks-1.onrender.com/ |
 | 📂 Jobs API | https://decodelabs-tasks-1.onrender.com/jobs |
-| 👨‍🎓 Student API | https://decodelabs-tasks-1.onrender.com/student |
 | 💻 GitHub Repository | https://github.com/janhviambulkar/decodelabs_tasks |
 
 </div>
